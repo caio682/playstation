@@ -1,1 +1,32 @@
 /* You can add global styles to this file, and also import other style files */
+@import '~bootstrap/dist/css/bootstrap.css';
+
+.search-input {
+  padding: 6px 32px 6px 8px;
+  border: none;
+  outline: none;
+  border-radius: 4px;
+  transition: width 0.3s, padding 0.3s;
+  width: 180px;
+}
+
+.search-focused .search-input {
+  width: 240px;
+  padding: 6px 40px 6px 8px;
+}
+
+.search-button {
+  position: absolute;
+  top: 50%;
+  right: 8px;
+  transform: translateY(-50%);
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.search-button i {
+  color: #555;
+  font-size: 18px;
+}

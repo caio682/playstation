@@ -1,0 +1,25 @@
+@import '~@fortawesome/fontawesome-free/css/all.min.css';
+
+.nav-item {
+    transition: background-color 0.3s ease;
+    border-radius: 32px;
+}
+
+.nav-item:hover {
+    background-color: #555;
+}
+
+.nav-item-hover:hover {
+    background-color: #555;
+}
+
+.nav-item.active {
+    background-color: #555;
+    border-radius: 32px;
+}
+
+.search-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
