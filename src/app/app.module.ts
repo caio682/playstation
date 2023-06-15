@@ -11,6 +11,9 @@ import { ColecoesComponent } from './header/colecoes/colecoes.component';
 import { NavegarComponent } from './header/navegar/navegar.component';
 import { NovidadesComponent } from './header/novidades/novidades.component';
 import { RouterModule } from '@angular/router';
+import { CarouselModule } from '@coreui/angular';
+import { CorouselComponent } from './header/corousel/corousel.component';
+// import { CarouselModule } from './carousel/carousel.module';
 
 
 @NgModule({
@@ -22,12 +25,14 @@ import { RouterModule } from '@angular/router';
     NovidadesComponent,
     ColecoesComponent,
     NavegarComponent,
+    CorouselComponent,
     
   ],
   imports: [
     BrowserModule,
     RouterModule,
-    AppRoutingModule
+    AppRoutingModule,
+    CarouselModule
   ],
   providers: [],
   bootstrap: [AppComponent]
